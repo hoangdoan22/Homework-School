@@ -301,8 +301,7 @@ public class schoolApp {
 
 						}
 						averagePointSemester = totalPointSubject / toltalMultiplicationSubject;
-						System.out.println(
-								"Average of all subjects :" + Math.round(averagePointSemester * 100.0) / 100.0);
+						System.out.println("Average of all subjects :" + Math.round(averagePointSemester * 100.0) / 100.0);
 						System.out.println("----------------------");
 						toltalMultiplicationSemester += semester.multiplication;
 						totalPointSemester += averagePointSemester * semester.multiplication;
